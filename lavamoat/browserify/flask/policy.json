@@ -2209,6 +2209,7 @@
         "@babel/core>@babel/helper-compilation-targets": true,
         "@babel/core>@babel/helper-module-transforms": true,
         "@babel/core>@babel/helpers": true,
+        "@babel/core>@babel/parser": true,
         "@babel/core>@babel/template": true,
         "@babel/core>@babel/types": true,
         "@babel/core>gensync": true,
@@ -2216,7 +2217,6 @@
         "browserify": true,
         "browserify>path-browserify": true,
         "browserify>process": true,
-        "depcheck>@babel/parser": true,
         "depcheck>@babel/traverse": true,
         "madge>debug": true,
         "nyc>convert-source-map": true
@@ -2349,8 +2349,8 @@
     "@babel/core>@babel/template": {
       "packages": {
         "@babel/code-frame": true,
-        "@babel/core>@babel/types": true,
-        "depcheck>@babel/parser": true
+        "@babel/core>@babel/parser": true,
+        "@babel/core>@babel/types": true
       }
     },
     "@babel/core>@babel/types": {
@@ -4742,8 +4742,8 @@
       "packages": {
         "@babel/code-frame": true,
         "@babel/core>@babel/generator": true,
+        "@babel/core>@babel/parser": true,
         "@babel/core>@babel/types": true,
-        "depcheck>@babel/parser": true,
         "depcheck>@babel/traverse>@babel/helper-environment-visitor": true,
         "depcheck>@babel/traverse>@babel/helper-function-name": true,
         "depcheck>@babel/traverse>@babel/helper-hoist-variables": true,
@@ -5149,6 +5149,7 @@
     },
     "eth-query": {
       "packages": {
+        "browserify>process": true,
         "eth-query>json-rpc-random-id": true,
         "watchify>xtend": true
       }
