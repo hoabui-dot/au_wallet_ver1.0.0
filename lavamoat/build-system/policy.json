@@ -37,7 +37,6 @@
         "@babel/core>@babel/helper-compilation-targets": true,
         "@babel/core>@babel/helper-module-transforms": true,
         "@babel/core>@babel/helpers": true,
-        "@babel/core>@babel/parser": true,
         "@babel/core>@babel/template": true,
         "@babel/core>@babel/types": true,
         "@babel/core>gensync": true,
@@ -50,6 +49,7 @@
         "@babel/preset-env": true,
         "@babel/preset-react": true,
         "@babel/preset-typescript": true,
+        "depcheck>@babel/parser": true,
         "depcheck>@babel/traverse": true,
         "depcheck>json5": true,
         "madge>debug": true,
@@ -183,8 +183,8 @@
     "@babel/core>@babel/template": {
       "packages": {
         "@babel/code-frame": true,
-        "@babel/core>@babel/parser": true,
-        "@babel/core>@babel/types": true
+        "@babel/core>@babel/types": true,
+        "depcheck>@babel/parser": true
       }
     },
     "@babel/core>@babel/types": {
@@ -2049,8 +2049,8 @@
       "packages": {
         "@babel/code-frame": true,
         "@babel/core>@babel/generator": true,
-        "@babel/core>@babel/parser": true,
         "@babel/core>@babel/types": true,
+        "depcheck>@babel/parser": true,
         "depcheck>@babel/traverse>@babel/helper-environment-visitor": true,
         "depcheck>@babel/traverse>@babel/helper-function-name": true,
         "depcheck>@babel/traverse>@babel/helper-hoist-variables": true,
@@ -6429,7 +6429,7 @@
         "console.log": true
       },
       "packages": {
-        "@babel/core>@babel/parser": true,
+        "depcheck>@babel/parser": true,
         "depcheck>@babel/traverse": true
       }
     },
