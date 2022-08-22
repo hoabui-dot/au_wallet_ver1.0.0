@@ -6,6 +6,8 @@ ignores:
 
   - '@babel/runtime'
   - '@fortawesome/fontawesome-free'
+  # used to augment React types
+  - 'csstype'
   - 'punycode'
 
   #
@@ -14,6 +16,9 @@ ignores:
 
   # all @types/* packages are imported implicitly by TypeScript
   - '@types/*'
+  # these packages are imported in the TypeScript dashboard build script
+  - 'chokidar'
+  - 'madge'
   # safety fallback for npm lifecycle scripts, not used normally
   - '@lavamoat/preinstall-always-fail'
   # used in testing + ci
