@@ -30,7 +30,7 @@
     "message": "የእንቅስቃሴ ምዝግብ ማስታወሻ"
   },
   "addAcquiredTokens": {
-    "message": "MetaMask በመጠቀም የገዟቸውን ተለዋጭ ስሞች ያክሉ"
+    "message": "AuWallet በመጠቀም የገዟቸውን ተለዋጭ ስሞች ያክሉ"
   },
   "addAlias": {
     "message": "ተለዋጭ ስም አክል"
@@ -73,7 +73,7 @@
     "description": "The description of the application"
   },
   "appName": {
-    "message": "MetaMask",
+    "message": "AuWallet",
     "description": "The name of the application"
   },
   "approve": {
@@ -101,7 +101,7 @@
     "message": "በራስ ሰር ዘግቶ መውጫ ሰዓት ቆጣሪ (ደቂቃ)"
   },
   "autoLockTimeLimitDescription": {
-    "message": "MetaMask በራስ ሰር መንገድ ዘግቶ ከመውጣቱ በፊት የቦዘነ ጊዜን በደቂቃዎች ሙላ"
+    "message": "AuWallet በራስ ሰር መንገድ ዘግቶ ከመውጣቱ በፊት የቦዘነ ጊዜን በደቂቃዎች ሙላ"
   },
   "average": {
     "message": "አማካይ"
@@ -113,7 +113,7 @@
     "message": "ወደ ሁሉም ተመለስ"
   },
   "backupApprovalInfo": {
-    "message": "መሳሪያዎ ቢጠፋ፣ የይለፍ ቃልዎን ቢረሱ፣ MetaMask እንደገና መጫን ቢያስፈልግዎ ወይም በሌላ መሳሪያ ወደ ቋትዎ ለመድረስ ቢፈልጉ ይህ ሚስጥራዊ ኮድ ቋትዎን መልሶ ለማግኘት ያስፈልጋል።"
+    "message": "መሳሪያዎ ቢጠፋ፣ የይለፍ ቃልዎን ቢረሱ፣ AuWallet እንደገና መጫን ቢያስፈልግዎ ወይም በሌላ መሳሪያ ወደ ቋትዎ ለመድረስ ቢፈልጉ ይህ ሚስጥራዊ ኮድ ቋትዎን መልሶ ለማግኘት ያስፈልጋል።"
   },
   "backupApprovalNotice": {
     "message": "የቋትዎንና የገነዘብዎን ደህንነት ለማስጠበቅ ሚስጥራዊ የማስመለሻ ኮድዎን መጠባበቂያ ይያዙ።"
@@ -144,13 +144,13 @@
     "message": "ማሰሺያዎት አልተደገፈም..."
   },
   "builtInCalifornia": {
-    "message": "MetaMask ካሊፎርኒያ ውስጥ ተዘጋጅቶ የተገነባ ነው።"
+    "message": "AuWallet ካሊፎርኒያ ውስጥ ተዘጋጅቶ የተገነባ ነው።"
   },
   "buyWithWyre": {
     "message": "ETH በ Wyre ይግዙ"
   },
   "buyWithWyreDescription": {
-    "message": "Wyre ክሬዲት ካርድ ተጠቅመው ETH በቀጥታ በ MetaMask መለያዎ ላይ እንዲያስቀምጡ ያስችልዎታል።"
+    "message": "Wyre ክሬዲት ካርድ ተጠቅመው ETH በቀጥታ በ AuWallet መለያዎ ላይ እንዲያስቀምጡ ያስችልዎታል።"
   },
   "bytes": {
     "message": "ባይት"
@@ -168,7 +168,7 @@
     "message": "የሰንሰለት መታወቂያ"
   },
   "chromeRequiredForHardwareWallets": {
-    "message": "ከሃርድዌርዎ ቋት ጋር ለመገናኘት MetaMask በ Google Chrome ላይ መጠቀም አለብዎት።"
+    "message": "ከሃርድዌርዎ ቋት ጋር ለመገናኘት AuWallet በ Google Chrome ላይ መጠቀም አለብዎት።"
   },
   "clickToRevealSeed": {
     "message": "ሚስጥራዊ ቃላትን ለመግለጽ እዚህ ጠቅ ያድርጉ"
@@ -345,7 +345,7 @@
     "message": "ሐረጉን በጭራሽ ከሌላ ሰው ጋር አይጋሩ።"
   },
   "endOfFlowMessage5": {
-    "message": "አጭበርባሪ ነገሮችን ይጠንቀቁ! MetaMask በድንገት የዘር ሐረግዎን በጭራሽ አይጠይቅዎትም።"
+    "message": "አጭበርባሪ ነገሮችን ይጠንቀቁ! AuWallet በድንገት የዘር ሐረግዎን በጭራሽ አይጠይቅዎትም።"
   },
   "endOfFlowMessage6": {
     "message": "የዘር ሐረግዎን በድጋሚ መጠባበቂያ ለመያዝ ከፈለጉ፣ በቅንብሮች -> ግላዊነት ውስጥ ሊያገኙት ይችላሉ።"
@@ -354,7 +354,7 @@
     "message": "ጥያቄዎች ካሉዎት ወይም የሆነ አጠራጣሪ ነገር ካዩ፣ እባክዎ ለ support@metamask.io ኢሜይል ይላኩ።"
   },
   "endOfFlowMessage8": {
-    "message": "MetaMask የዘር ሐረግዎን መልሶ ማግኘት አልቻለም። ተጨማሪ መረጃ ያግኙ።"
+    "message": "AuWallet የዘር ሐረግዎን መልሶ ማግኘት አልቻለም። ተጨማሪ መረጃ ያግኙ።"
   },
   "endOfFlowMessage9": {
     "message": "ተጨማሪ ይማሩ"
@@ -468,7 +468,7 @@
     "message": "ከሃርድዌር ቋት ጋር ይገናኙ"
   },
   "hardwareWalletsMsg": {
-    "message": "ከ MetaMask ጋር ሊጠቀሙበት የሚፈልጉትን የሃርድዌር ቋት ይምረጡ"
+    "message": "ከ AuWallet ጋር ሊጠቀሙበት የሚፈልጉትን የሃርድዌር ቋት ይምረጡ"
   },
   "havingTroubleConnecting": {
     "message": "ግንኙነት መፍጠር ላይ ተቸግረዋል?"
@@ -497,7 +497,7 @@
     "message": "መለያ አስመጣ"
   },
   "importAccountMsg": {
-    "message": "የመጡ መለያዎች በመጀመሪያ ከተፈጠረው የእርስዎ MetaMask መለያ የዘር ሐረግ ጋር አይዛመዱም። ስለሚመጡ መለያዎቸ ተጨማሪ መረጃ ያግኙ"
+    "message": "የመጡ መለያዎች በመጀመሪያ ከተፈጠረው የእርስዎ AuWallet መለያ የዘር ሐረግ ጋር አይዛመዱም። ስለሚመጡ መለያዎቸ ተጨማሪ መረጃ ያግኙ"
   },
   "importAccountSeedPhrase": {
     "message": "መለያን በዘር ሐረግ አስመጣ"
@@ -604,7 +604,7 @@
     "message": "ከ Ethereum እና ያልተማከለ መረብ ጋር እርስዎን ማገናኘት።"
   },
   "metamaskVersion": {
-    "message": "የ MetaMask ስሪት"
+    "message": "የ AuWallet ስሪት"
   },
   "mobileSyncText": {
     "message": "እርስዎ መሆንዎትን ለማረጋገጥ እባከዎ የይለፍ ቃልዎን ያስገቡ!"
@@ -619,10 +619,10 @@
     "message": "የቋት መለያዎቼ"
   },
   "myWalletAccountsDescription": {
-    "message": "በ MetaMask የተፈጠሩ መለያዎችዎ በሙሉ በራስ ሰር መንገድ ወደዚህ ክፍል ይታከላሉ።"
+    "message": "በ AuWallet የተፈጠሩ መለያዎችዎ በሙሉ በራስ ሰር መንገድ ወደዚህ ክፍል ይታከላሉ።"
   },
   "needEtherInWallet": {
-    "message": "MetaMask በመጠቀም ያልተማከሉ መተግበሪያዎች ጋር ግንኙነት ለማድረግ፣ በቋትዎ ውስጥ Ether ያስፈልግዎታል።"
+    "message": "AuWallet በመጠቀም ያልተማከሉ መተግበሪያዎች ጋር ግንኙነት ለማድረግ፣ በቋትዎ ውስጥ Ether ያስፈልግዎታል።"
   },
   "needImportFile": {
     "message": "የሚያስመጡትን ፋይል መምረጥ አለብዎት።",
@@ -666,7 +666,7 @@
     "message": "አዲስ የይለፍ ቃል (ቢያንስ 8 ቁምፊዎች)"
   },
   "newToMetaMask": {
-    "message": "ለ MetaMask አዲስ ነዎት?"
+    "message": "ለ AuWallet አዲስ ነዎት?"
   },
   "newTotal": {
     "message": "አዲስ ድምር"
@@ -776,7 +776,7 @@
     "message": "ቁልፎችዎን ይጠብቁ!"
   },
   "protectYourKeysMessage1": {
-    "message": "ስለ ዘር ሐረግዎ ይጠንቀቁ - ራሳቸውን ከ MetaMask ጋር ለማመሳሰል የሚሞከሩ ድረ ገጾች እናሉ ሰምተናል። MetaMask በጭራሽ የዘር ሐረግዎን አይጠይቅዎትም!"
+    "message": "ስለ ዘር ሐረግዎ ይጠንቀቁ - ራሳቸውን ከ AuWallet ጋር ለማመሳሰል የሚሞከሩ ድረ ገጾች እናሉ ሰምተናል። AuWallet በጭራሽ የዘር ሐረግዎን አይጠይቅዎትም!"
   },
   "protectYourKeysMessage2": {
     "message": "የሐረግዎን ደህንነት ይጠብቁ። ይም የሆነ አጠራጣሪ ነገር ካዩ ወይም ስለ አንድ ድረ ገጽ እርግጠኛ ካልሆኑ፣ እባክዎ ለ support@metamask.io ኢሜይል ይላኩ"
@@ -926,7 +926,7 @@
     "message": "መለያ ይምረጡ"
   },
   "selectAnAccountHelp": {
-    "message": "መለያውን በ MetaMask ለማየት ይምረጡ"
+    "message": "መለያውን በ AuWallet ለማየት ይምረጡ"
   },
   "selectCurrency": {
     "message": "የገንዘብ ዓይነት ይምረጡ"
@@ -1070,16 +1070,16 @@
     "message": "ይህን ኮድ ስካን ሲያደርጉ ሌላ ሰው የእርስዎን ማያ እየተመለከተ አለመሆኑን ያረጋግጡ"
   },
   "syncWithMobileComplete": {
-    "message": "ውሂብዎ በሚገባ ተሳምሯል። በ MetaMask የሞባይል መተግበሪያ ይደሰቱ!"
+    "message": "ውሂብዎ በሚገባ ተሳምሯል። በ AuWallet የሞባይል መተግበሪያ ይደሰቱ!"
   },
   "syncWithMobileDesc": {
-    "message": "መለያዎችዎንና መረጃዎችዎን ከሞባይል መሳሪያዎ ጋር ያሳምሩ። የ MetaMask የሞባይል መተግበሪያን ይክፈቱ፣ ወደ \"ቅንብሮች\" ይሂዱና \"ከማሰሺያ ቅጥያ አሳምር\" የሚለውን ይንኩ"
+    "message": "መለያዎችዎንና መረጃዎችዎን ከሞባይል መሳሪያዎ ጋር ያሳምሩ። የ AuWallet የሞባይል መተግበሪያን ይክፈቱ፣ ወደ \"ቅንብሮች\" ይሂዱና \"ከማሰሺያ ቅጥያ አሳምር\" የሚለውን ይንኩ"
   },
   "syncWithMobileDescNewUsers": {
-    "message": "የ MetaMask የሞባይል መተግበሪያን ለመጀመሪያ ጊዜ ገና እየከፈቱ ከሆነ፣ በስልክዎ ላይ ያሉትን ቅደም ተከተሎች ብቻ ይከተሉ።"
+    "message": "የ AuWallet የሞባይል መተግበሪያን ለመጀመሪያ ጊዜ ገና እየከፈቱ ከሆነ፣ በስልክዎ ላይ ያሉትን ቅደም ተከተሎች ብቻ ይከተሉ።"
   },
   "syncWithMobileScanThisCode": {
-    "message": "ይህን ኮድ በ MetaMask የሞባይል መተግበሪያዎ ስካን ያድርጉ"
+    "message": "ይህን ኮድ በ AuWallet የሞባይል መተግበሪያዎ ስካን ያድርጉ"
   },
   "syncWithMobileTitle": {
     "message": "ከሞባይል ጋር አሳምር"
@@ -1170,7 +1170,7 @@
     "message": "እንደገና ሞክር"
   },
   "typePassword": {
-    "message": "የ MetaMask የይለፍ ቃልዎን ይጻፉ"
+    "message": "የ AuWallet የይለፍ ቃልዎን ይጻፉ"
   },
   "unapproved": {
     "message": "ያልተፈቀደ"
@@ -1233,7 +1233,7 @@
     "message": "የቋት ዘር"
   },
   "welcome": {
-    "message": "ወደ MetaMask እንኳን ደህና መጡ"
+    "message": "ወደ AuWallet እንኳን ደህና መጡ"
   },
   "welcomeBack": {
     "message": "እንኳን በደህና ተመለሱ"

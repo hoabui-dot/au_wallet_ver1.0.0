@@ -88,13 +88,13 @@ export default class MessageManager extends EventEmitter {
           case 'rejected':
             return reject(
               ethErrors.provider.userRejectedRequest(
-                'MetaMask Message Signature: User denied message signature.',
+                'AuWallet Message Signature: User denied message signature.',
               ),
             )
           default:
             return reject(
               new Error(
-                `MetaMask Message Signature: Unknown problem: ${JSON.stringify(
+                `AuWallet Message Signature: Unknown problem: ${JSON.stringify(
                   msgParams,
                 )}`,
               ),

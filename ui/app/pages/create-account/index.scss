@@ -3,7 +3,10 @@
 
 .new-account {
   width: 375px;
-  background-color: #fff;
+  // background-color: #fff;
+  background: url("https://milkywaygalaxy-2.s3.ap-southeast-1.amazonaws.com/milkywaygalaxy-21660717121051-ui_passport_DEV_0006_Group-2%202.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.08);
   z-index: 25;
   height: unset;
@@ -49,7 +52,7 @@
     }
 
     &__tab:hover {
-      color: $black;
+      color: white;
       border-bottom: none;
     }
 
@@ -72,7 +75,8 @@
   &__input-label {
     @include Paragraph;
 
-    color: $scorpion;
+    // color: $scorpion;
+    color: $lightGray;
     align-self: flex-start;
   }
 
@@ -83,10 +87,11 @@
     width: 315.84px;
     border: 1px solid $geyser;
     border-radius: 4px;
-    background-color: $white;
+    // background-color: $white;
     color: $scorpion;
     margin-top: 15px;
     padding: 0 20px;
+    background: unset;
   }
 
   &__buttons {

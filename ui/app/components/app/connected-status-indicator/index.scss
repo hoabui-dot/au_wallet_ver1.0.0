@@ -6,9 +6,10 @@
   font-size: inherit;
   padding: 8px;
   border-radius: 100px;
+  transition: all 250ms;
 
   &:hover {
-    background-color: #f2f3f4;
+    background-color: rgba($alto, 0.2);
   }
 
   &:active {
@@ -53,7 +54,7 @@
   &__text {
     @include H8;
 
-    color: $Grey-500;
+    color: #9f9f9f;
     margin-left: 6px;
     white-space: nowrap;
   }

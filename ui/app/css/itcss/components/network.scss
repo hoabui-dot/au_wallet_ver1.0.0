@@ -70,7 +70,8 @@
 
   padding: 0 4px;
   flex: 1 1 auto;
-  color: $tundora;
+  // color: $tundora;
+  color: $lightGray;
   font-weight: 500;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -167,7 +168,7 @@
   @include H4;
 
   height: 25px;
-  width: 120px;
+  // width: 120px;
   color: $white;
   text-align: center;
 }

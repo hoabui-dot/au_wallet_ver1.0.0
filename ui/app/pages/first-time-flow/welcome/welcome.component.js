@@ -1,8 +1,10 @@
 import EventEmitter from 'events'
 import React, { PureComponent } from 'react'
 import PropTypes from 'prop-types'
-import Mascot from '../../../components/ui/mascot'
+// import Mascot from '../../../components/ui/mascot'
 import Button from '../../../components/ui/button'
+// import WalletLogo from '../../../../app/components/ui/wallet-logo'
+// import WalletLogo from '../../asset/images/auwallet-logo.png'
 import {
   INITIALIZE_CREATE_PASSWORD_ROUTE,
   INITIALIZE_SELECT_ACTION_ROUTE,
@@ -45,10 +47,14 @@ export default class Welcome extends PureComponent {
     return (
       <div className="welcome-page__wrapper">
         <div className="welcome-page">
-          <Mascot
+          {/* <Mascot
             animationEventEmitter={this.animationEventEmitter}
             width="125"
             height="125"
+          /> */}
+          <img
+            style={{ width: 125, height: 125 }}
+            src="https://milkywaygalaxy-2.s3.ap-southeast-1.amazonaws.com/milkywaygalaxy-21660635081808-auwallet-logo.png"
           />
           <div className="welcome-page__header">{t('welcome')}</div>
           <div className="welcome-page__description">

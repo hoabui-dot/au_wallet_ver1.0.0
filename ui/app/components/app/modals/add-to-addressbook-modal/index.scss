@@ -1,7 +1,8 @@
 .add-to-address-book-modal {
   display: flex;
   flex-flow: column nowrap;
-  background-color: $white;
+  // background-color: $white;
+  background: url("https://milkywaygalaxy-2.s3.ap-southeast-1.amazonaws.com/milkywaygalaxy-21660788794276-ui_passport_DEV_0006_Group-2%202.png");
   border-radius: 10px;
   box-shadow: 0 5px 16px rgba($black, 0.25);
 
@@ -10,6 +11,7 @@
 
     padding: 1.5rem;
     border-bottom: 1px solid $Grey-100;
+    color: #4c535a;
 
     &__header {
       @include H3;

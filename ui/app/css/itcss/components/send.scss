@@ -570,6 +570,7 @@
   &__form-field {
     flex: 1 1 auto;
     min-width: 0;
+    color: #979797;
 
     .currency-display {
       color: $tundora;
@@ -594,7 +595,7 @@
   &__form-label {
     @include Paragraph;
 
-    color: $scorpion;
+    color: white;
     width: 95px;
     flex: 0 0 auto;
   }
@@ -606,8 +607,9 @@
     width: 100%;
     border: 1px solid $alto;
     border-radius: 4px;
-    background-color: $white;
-    color: $tundora;
+    // background-color: $white;
+    // color: $tundora;
+    color: #cdcdcd;
     position: relative;
 
     &__close-area {
@@ -733,9 +735,9 @@
       .send-v2__asset-dropdown__asset {
         height: 100%;
 
-        &:hover {
-          background-color: $white;
-        }
+        // &:hover {
+        //   background-color: $white;
+        // }
       }
     }
 

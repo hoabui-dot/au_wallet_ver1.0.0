@@ -38,7 +38,7 @@ async function start() {
 
   function displayCriticalError(container, err) {
     container.innerHTML =
-      '<div class="critical-error">The MetaMask app failed to load: please open and close MetaMask again to restart.</div>'
+      '<div class="critical-error">The AuWallet app failed to load: please open and close AuWallet again to restart.</div>'
     container.style.height = '80px'
     log.error(err.stack)
     throw err

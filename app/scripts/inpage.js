@@ -13,7 +13,7 @@ const cleanContextForImports = () => {
   try {
     global.define = undefined
   } catch (_) {
-    console.warn('MetaMask - global.define could not be deleted.')
+    console.warn('AuWallet - global.define could not be deleted.')
   }
 }
 
@@ -24,7 +24,7 @@ const restoreContextAfterImports = () => {
   try {
     global.define = __define
   } catch (_) {
-    console.warn('MetaMask - global.define could not be overwritten.')
+    console.warn('AuWallet - global.define could not be overwritten.')
   }
 }
 
@@ -64,9 +64,9 @@ if (typeof window.web3 === 'undefined') {
   // proxy web3, assign to window, and set up site auto reload
   setupWeb3(log)
 } else {
-  log.warn(`MetaMask detected another web3.
-     MetaMask will not work reliably with another web3 extension.
-     This usually happens if you have two MetaMasks installed,
-     or MetaMask and another web3 extension. Please remove one
+  log.warn(`AuWallet detected another web3.
+     AuWallet will not work reliably with another web3 extension.
+     This usually happens if you have two AuWallets installed,
+     or AuWallet and another web3 extension. Please remove one
      and try again.`)
 }

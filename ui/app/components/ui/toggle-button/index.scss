@@ -2,6 +2,10 @@
   display: flex;
   $self: &;
 
+  & div div {
+    background-color: unset;
+  }
+
   &__status {
     @include Paragraph;
 

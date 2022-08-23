@@ -2,7 +2,7 @@
   @include H7;
 
   width: 120%;
-  background-color: #f4f9fc;
+  // background-color: #f4f9fc;
   display: inline-block;
   align-items: center;
   padding: 20px 30px 20px;
@@ -25,7 +25,8 @@
   &__select-label {
     @include Paragraph;
 
-    color: $scorpion;
+    // color: $scorpion;
+    color: $lightGray;
   }
 
   &__select {
@@ -33,9 +34,16 @@
     width: 210px;
     border: 1px solid #d2d8dd;
     border-radius: 4px;
-    background-color: #fff;
+    // background-color: #fff;
     display: flex;
     align-items: center;
+
+    .Select-control {
+      background: unset;
+      &:hover {
+        background-color: $grayWord;
+      }
+    }
 
     .Select-control,
     .Select-control:hover {
@@ -78,10 +86,11 @@
     width: 315px;
     border: 1px solid $geyser;
     border-radius: 4px;
-    background-color: $white;
+    // background-color: $white;
     margin-top: 16px;
     color: $scorpion;
     padding: 0 20px;
+    background: unset;
   }
 
   &__json {

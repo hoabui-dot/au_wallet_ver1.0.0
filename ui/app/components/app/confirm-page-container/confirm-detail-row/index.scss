@@ -9,7 +9,8 @@
     @include H7;
 
     font-weight: 500;
-    color: $scorpion;
+    // color: $scorpion;
+    color: #c5bbbb;
     text-transform: uppercase;
   }
 
@@ -35,7 +36,8 @@
 
     text-transform: uppercase;
     margin-bottom: 6px;
-    color: $scorpion;
+    // color: $scorpion;
+    color: #c5bbbb;
 
     &--edit {
       color: $primary-blue;

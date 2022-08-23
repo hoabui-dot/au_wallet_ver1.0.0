@@ -1,5 +1,5 @@
 $sub-mid-size-breakpoint: 667px;
-$sub-mid-size-breakpoint-range: "screen and (min-width: #{$break-large}) and (max-width: #{$sub-mid-size-breakpoint})";
+$sub-mid-size-breakpoint-range: 'screen and (min-width: #{$break-large}) and (max-width: #{$sub-mid-size-breakpoint})';
 
 /*
   NewUI Container Elements
@@ -17,6 +17,9 @@ $sub-mid-size-breakpoint-range: "screen and (min-width: #{$break-large}) and (ma
 // Main container
 .main-container {
   z-index: $main-container-z-index;
+  background: url('https://milkywaygalaxy-2.s3.ap-southeast-1.amazonaws.com/milkywaygalaxy-21660717121051-ui_passport_DEV_0006_Group-2%202.png');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .main-container::-webkit-scrollbar {
@@ -43,6 +46,9 @@ $sub-mid-size-breakpoint-range: "screen and (min-width: #{$break-large}) and (ma
   }
 
   .main-container {
+    background: url("https://milkywaygalaxy-2.s3.ap-southeast-1.amazonaws.com/milkywaygalaxy-21660717121051-ui_passport_DEV_0006_Group-2%202.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 85vw;
     margin-bottom: 10vh;
     min-height: 90vh;
@@ -52,6 +58,9 @@ $sub-mid-size-breakpoint-range: "screen and (min-width: #{$break-large}) and (ma
 
 @media screen and (min-width: 769px) {
   .main-container {
+    background: url("https://milkywaygalaxy-2.s3.ap-southeast-1.amazonaws.com/milkywaygalaxy-21660717121051-ui_passport_DEV_0006_Group-2%202.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 80vw;
     min-height: 82vh;
     box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.08);
@@ -76,9 +85,12 @@ $sub-mid-size-breakpoint-range: "screen and (min-width: #{$break-large}) and (ma
   }
 
   .main-container {
+    background: url("https://milkywaygalaxy-2.s3.ap-southeast-1.amazonaws.com/milkywaygalaxy-21660717121051-ui_passport_DEV_0006_Group-2%202.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
     overflow-y: auto;
-    background-color: $white;
+    // background-color: $white;
   }
 
   .main-container-wrapper {
@@ -141,5 +153,5 @@ $sub-mid-size-breakpoint-range: "screen and (min-width: #{$break-large}) and (ma
   height: 100%;
   justify-content: center;
   padding: 0 10px;
-  background: white;
+  // background: white;
 }

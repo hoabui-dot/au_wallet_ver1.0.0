@@ -5,7 +5,7 @@
     position: relative;
     display: flex;
     justify-content: center;
-    background-color: $Grey-000;
+    // background-color: $Grey-000;
     border-bottom: none;
     padding: 14px 0 3px 0;
 
@@ -37,7 +37,7 @@
     margin: 0;
     padding: 0.5rem;
     flex: 0 0 auto;
-    background-color: $Grey-000;
+    // background-color: $Grey-000;
     border-bottom: 1px solid $alto;
   }
 
@@ -97,8 +97,9 @@
     &__group-label {
       @include H8;
 
-      background-color: $Grey-000;
-      color: $Grey-600;
+      // background-color: $Grey-000;
+      // color: $Grey-600;
+      color: $lightGray;
       padding: 0.5rem 1rem;
       border-bottom: 1px solid $alto;
 
@@ -135,7 +136,7 @@
       &__title {
         @include H6;
 
-        color: $black;
+        color: $lightGray;
       }
 
       &__subtitle {
@@ -161,7 +162,7 @@
     flex: 1 1 auto;
     width: 0;
     align-items: center;
-    background: $white;
+    // background: $white;
     border-radius: 0.5rem;
     padding: 0.75rem 0.5rem;
     border: 1px solid $Grey-100;
@@ -195,6 +196,8 @@
       width: 0;
       border: 0;
       outline: none;
+      background: unset;
+      color: white;
 
       &::placeholder {
         color: $Grey-200;

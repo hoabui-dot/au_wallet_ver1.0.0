@@ -552,7 +552,7 @@ describe('MetaMask', function () {
 
       windowHandles = await driver.getAllWindowHandles()
       await driver.switchToWindowWithTitle(
-        'MetaMask Notification',
+        'AuWallet Notification',
         windowHandles,
       )
       await driver.delay(regularDelayMs)

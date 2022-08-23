@@ -1,6 +1,10 @@
 .page-container {
   width: 408px;
-  background-color: $white;
+  // background-color: $white;
+  // background: url("https://milkywaygalaxy-2.s3.ap-southeast-1.amazonaws.com/milkywaygalaxy-21660788811603-background.png");
+  // background-repeat: no-repeat;
+  // background-size: cover;
+  background-position: center center;
   box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.08);
   z-index: 25;
   display: flex;
@@ -101,7 +105,7 @@
   &__title {
     @include H2;
 
-    color: $black;
+    color: white;
     font-weight: 500;
     margin-right: 1.5rem;
   }
@@ -110,7 +114,8 @@
     @include H6;
 
     padding-top: 0.5rem;
-    color: $gray;
+    // color: $gray;
+    color: #444;
   }
 
   &__tabs {
@@ -188,7 +193,7 @@
   .page-container {
     height: 100%;
     width: 100%;
-    background-color: $white;
+    // background-color: $white;
     border-radius: 0;
     flex: 1;
     overflow-y: auto;

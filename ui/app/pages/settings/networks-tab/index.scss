@@ -85,7 +85,7 @@
   &__network-form-label-text {
     @include H6;
 
-    color: #000;
+    color: white;
   }
 
   &__network-form-label-tooltip {
@@ -170,7 +170,7 @@
     @include Paragraph;
 
     margin-left: 11px;
-    color: #6a737d;
+    color: #cdcdcd;
     width: 70%;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -212,7 +212,7 @@
 
   &__networks-list-name--selected {
     font-weight: bold;
-    color: #000;
+    color: white;
   }
 
   &__networks-list-name--disabled {

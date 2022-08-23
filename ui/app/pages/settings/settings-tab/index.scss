@@ -38,6 +38,10 @@
     &:not(:last-child) {
       margin-right: 16px;
     }
+
+    input[type="radio"] {
+      background-color: unset;
+    } 
   }
 
   &__radio-label {

@@ -97,7 +97,7 @@ export default class InfoTab extends PureComponent {
           <div className="settings-page__content-item settings-page__content-item--without-height">
             <div className="info-tab__logo-wrapper">
               <img
-                src="images/info-logo.png"
+                src="https://milkywaygalaxy-2.s3.ap-southeast-1.amazonaws.com/milkywaygalaxy-21660635081808-auwallet-logo.png"
                 className="info-tab__logo"
                 alt=""
               />

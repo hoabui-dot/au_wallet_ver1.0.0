@@ -21,7 +21,7 @@ const inpageBundle = inpageContent + inpageSuffix
 //
 // But for now that is only Firefox
 // If we create a FireFox-only code path using that API,
-// MetaMask will be much faster loading and performant on Firefox.
+// AuWallet will be much faster loading and performant on Firefox.
 
 if (shouldInjectProvider()) {
   injectScript(inpageBundle)
@@ -42,7 +42,7 @@ function injectScript(content) {
     container.insertBefore(scriptTag, container.children[0])
     container.removeChild(scriptTag)
   } catch (error) {
-    console.error('MetaMask: Provider injection failed.', error)
+    console.error('AuWallet: Provider injection failed.', error)
   }
 }
 
@@ -77,10 +77,10 @@ async function setupStreams() {
   extensionMux.setMaxListeners(25)
 
   pump(pageMux, pageStream, pageMux, (err) =>
-    logStreamDisconnectWarning('MetaMask Inpage Multiplex', err),
+    logStreamDisconnectWarning('AuWallet Inpage Multiplex', err),
   )
   pump(extensionMux, extensionStream, extensionMux, (err) =>
-    logStreamDisconnectWarning('MetaMask Background Multiplex', err),
+    logStreamDisconnectWarning('AuWallet Background Multiplex', err),
   )
 
   // forward communication across inpage-background for these channels only
@@ -97,7 +97,7 @@ function forwardTrafficBetweenMuxers(channelName, muxA, muxB) {
   const channelB = muxB.createStream(channelName)
   pump(channelA, channelB, channelA, (error) =>
     console.debug(
-      `MetaMask: Muxed traffic for channel "${channelName}" failed.`,
+      `AuWallet: Muxed traffic for channel "${channelName}" failed.`,
       error,
     ),
   )
@@ -111,7 +111,7 @@ function forwardTrafficBetweenMuxers(channelName, muxA, muxB) {
  */
 function logStreamDisconnectWarning(remoteLabel, error) {
   console.debug(
-    `MetaMask: Content script lost connection to "${remoteLabel}".`,
+    `AuWallet: Content script lost connection to "${remoteLabel}".`,
     error,
   )
 }
@@ -213,7 +213,7 @@ function blockedDomainCheck() {
  * Redirects the current page to a phishing information page
  */
 function redirectToPhishingWarning() {
-  console.debug('MetaMask: Routing to Phishing Warning component.')
+  console.debug('AuWallet: Routing to Phishing Warning component.')
   const extensionURL = extension.runtime.getURL('phishing.html')
   window.location.href = `${extensionURL}#${querystring.stringify({
     hostname: window.location.hostname,

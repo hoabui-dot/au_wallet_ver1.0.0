@@ -25,7 +25,7 @@
   &__data-box {
     @include H7;
 
-    background-color: #f9fafa;
+    // background-color: #f9fafa;
     padding: 12px;
     margin-bottom: 16px;
     word-wrap: break-word;
@@ -67,7 +67,8 @@
 
     font-weight: 500;
     text-transform: capitalize;
-    color: $black;
+    // color: $black;
+    color: white;
     padding-left: 5px;
   }
 

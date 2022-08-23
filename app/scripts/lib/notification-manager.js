@@ -63,7 +63,7 @@ export default class NotificationManager {
   }
 
   /**
-   * Checks all open MetaMask windows, and returns the first one it finds that is a notification window (i.e. has the
+   * Checks all open AuWallet windows, and returns the first one it finds that is a notification window (i.e. has the
    * type 'popup')
    *
    * @private

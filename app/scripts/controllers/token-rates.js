@@ -48,7 +48,7 @@ export default class TokenRatesController {
         })
       } catch (error) {
         log.warn(
-          `MetaMask - TokenRatesController exchange rate fetch failed.`,
+          `AuWallet - TokenRatesController exchange rate fetch failed.`,
           error,
         )
       }

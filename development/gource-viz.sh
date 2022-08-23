@@ -4,7 +4,7 @@ set -x
 gource \
   --seconds-per-day .025 \
   --user-scale 1.5 \
-  --default-user-image "./images/icon-512.png" \
+  --default-user-image "./images/auwallet-logo.png" \
   --viewport 1280x720 \
   --auto-skip-seconds .05 \
   --multi-sampling \
@@ -18,7 +18,7 @@ gource \
   --date-format "%b %d, %Y" \
   --highlight-dirs \
   --user-friction 0.1 \
-  --title "MetaMask Development History" \
+  --title "AuWallet Development History" \
   --output-ppm-stream - \
   --output-framerate 30 \
   | ffmpeg -y -r 30 -f image2pipe -vcodec ppm -i - -b 65536K metamask-dev-history.mp4

@@ -9,7 +9,7 @@ const Ganache = require('./ganache')
 
 const ganacheServer = new Ganache()
 
-describe('Using MetaMask with an existing account', function () {
+describe('Using AuWallet with an existing account', function () {
   let driver
 
   const testSeedPhrase =
@@ -112,7 +112,7 @@ describe('Using MetaMask with an existing account', function () {
     })
   })
 
-  describe('Send ETH from inside MetaMask', function () {
+  describe('Send ETH from inside AuWallet', function () {
     it('starts a send transaction', async function () {
       await driver.clickElement(By.css('[data-testid="eth-overview-send"]'))
       await driver.delay(regularDelayMs)

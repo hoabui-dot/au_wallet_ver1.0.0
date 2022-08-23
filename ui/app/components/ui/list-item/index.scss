@@ -2,7 +2,7 @@
   width: 100%;
   min-height: 86px;
   margin: 0;
-  background: #fff;
+  // background: #fff;
   padding: 24px 16px;
 
   @include Paragraph;
@@ -18,10 +18,11 @@
     '.    actions  actions  actions  actions  actions  actions  actions  right right right right';
   align-items: start;
   cursor: pointer;
+  transition: all 250ms;
 
   &:hover,
   &:focus-within {
-    background-color: $Grey-000;
+    background-color: rgba($alto, 0.2);
   }
 
   &__icon {
@@ -61,6 +62,7 @@
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+    color: $white;
   }
 
   &__subheading {

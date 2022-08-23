@@ -6,7 +6,7 @@
 
   &__tab {
     @include Paragraph;
-
+    color: white;
     display: flex;
     flex-flow: row nowrap;
     align-items: flex-start;

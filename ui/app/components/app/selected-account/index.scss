@@ -14,7 +14,7 @@
 
     width: 100%;
     font-weight: 500;
-    color: $black;
+    color: #fff;
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
@@ -39,13 +39,14 @@
     cursor: pointer;
     width: 100%;
     background-color: unset;
+    transition: all 250ms;
 
     &:hover {
-      background-color: $Grey-000;
+      background-color: #4c535a;
     }
 
     &:active {
-      background-color: #d9d7da;
+      background-color: #4c535a;
     }
   }
 }

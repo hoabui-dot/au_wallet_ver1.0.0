@@ -144,10 +144,14 @@ export default class UnlockPage extends Component {
       <div className="unlock-page__container">
         <div className="unlock-page">
           <div className="unlock-page__mascot-container">
-            <Mascot
+            {/* <Mascot
               animationEventEmitter={this.animationEventEmitter}
               width="120"
               height="120"
+            /> */}
+            <img
+              style={{ width: 125, height: 125 }}
+              src="https://milkywaygalaxy-2.s3.ap-southeast-1.amazonaws.com/milkywaygalaxy-21660635081808-auwallet-logo.png"
             />
           </div>
           <h1 className="unlock-page__title">{t('welcomeBack')}</h1>

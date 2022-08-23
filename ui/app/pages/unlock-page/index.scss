@@ -7,9 +7,12 @@
   padding: 30px;
   font-weight: 400;
   color: $silver-chalice;
+  background: url('https://milkywaygalaxy-2.s3.ap-southeast-1.amazonaws.com/milkywaygalaxy-21660726627929-ui_passport_DEV_0006_Group-2%202.png');
+  background-repeat: no-repeat;
+  background-size: cover;
 
   &__container {
-    background: $white;
+    // background: $white;
     display: flex;
     align-self: stretch;
     justify-content: center;
@@ -25,12 +28,14 @@
 
     margin-top: 5px;
     font-weight: 800;
-    color: $tundora;
+    // color: $tundora;
+    color: #797979;
   }
 
   &__form {
     width: 100%;
     margin: 56px 0 8px;
+    color: #797979 !important;
   }
 
   &__links {

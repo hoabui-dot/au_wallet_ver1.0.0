@@ -13,15 +13,15 @@
   },
   "browser_action": {
     "default_icon": {
-      "16": "images/icon-16.png",
-      "19": "images/icon-19.png",
-      "32": "images/icon-32.png",
-      "38": "images/icon-38.png",
-      "64": "images/icon-64.png",
-      "128": "images/icon-128.png",
-      "512": "images/icon-512.png"
+      "16": "images/auwallet-logo.png",
+      "19": "images/auwallet-logo.png",
+      "32": "images/auwallet-logo.png",
+      "38": "images/auwallet-logo.png",
+      "64": "images/auwallet-logo.png",
+      "128": "images/auwallet-logo.png",
+      "512": "images/auwallet-logo.png"
     },
-    "default_title": "MetaMask",
+    "default_title": "AuWallet",
     "default_popup": "popup.html"
   },
   "commands": {
@@ -55,14 +55,14 @@
   "default_locale": "en",
   "description": "__MSG_appDescription__",
   "icons": {
-    "16": "images/icon-16.png",
-    "19": "images/icon-19.png",
-    "32": "images/icon-32.png",
-    "38": "images/icon-38.png",
-    "48": "images/icon-48.png",
-    "64": "images/icon-64.png",
-    "128": "images/icon-128.png",
-    "512": "images/icon-512.png"
+    "16": "images/auwallet-logo.png",
+    "19": "images/auwallet-logo.png",
+    "32": "images/auwallet-logo.png",
+    "38": "images/auwallet-logo.png",
+    "48": "images/auwallet-logo.png",
+    "64": "images/auwallet-logo.png",
+    "128": "images/auwallet-logo.png",
+    "512": "images/auwallet-logo.png"
   },
   "manifest_version": 2,
   "name": "__MSG_appName__",

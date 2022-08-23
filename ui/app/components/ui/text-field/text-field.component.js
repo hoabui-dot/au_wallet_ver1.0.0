@@ -13,35 +13,42 @@ const inputLabelBase = {
 const styles = {
   materialLabel: {
     '&$materialFocused': {
-      color: '#aeaeae',
+      // color: '#aeaeae',
+      color: 'white !important',
     },
     '&$materialError': {
-      color: '#aeaeae',
+      // color: '#aeaeae',
+      color: 'white !important',
     },
     fontWeight: '400',
-    color: '#aeaeae',
+    color: 'white !important',
   },
   materialFocused: {},
   materialUnderline: {
     '&:after': {
       borderBottom: '2px solid #f7861c',
+      color: 'white !important',
     },
   },
   materialError: {},
   materialWhitePaddedRoot: {
-    color: '#aeaeae',
+    // color: '#aeaeae',
+    color: 'white !important',
   },
   materialWhitePaddedInput: {
     padding: '8px',
+    color: 'white !important',
 
     '&::placeholder': {
-      color: '#aeaeae',
+      // color: '#aeaeae',
+      color: 'white !important',
     },
   },
   materialWhitePaddedFocused: {
-    color: '#fff',
+    color: '#fff !important',
   },
   materialWhitePaddedUnderline: {
+    color: 'white !important',
     '&:after': {
       borderBottom: '2px solid #fff',
     },
@@ -49,17 +56,20 @@ const styles = {
   // Non-material styles
   formLabel: {
     '&$formLabelFocused': {
-      color: '#5b5b5b',
+      // color: '#5b5b5b',
+      color: 'white !important',
     },
     '&$materialError': {
       color: '#5b5b5b',
+      color: 'white !important',
     },
   },
-  formLabelFocused: {},
-  inputFocused: {},
+  formLabelFocused: { color: 'white !important' },
+  inputFocused: { color: 'white !important' },
   inputRoot: {
     'label + &': {
       marginTop: '9px',
+      color: 'white !important',
     },
     border: '1px solid #BBC0C5',
     height: '48px',
@@ -67,6 +77,7 @@ const styles = {
     padding: '0 16px',
     display: 'flex',
     alignItems: 'center',
+    color: 'white !important',
     '&$inputFocused': {
       border: '1px solid #2f9ae0',
     },
@@ -74,13 +85,16 @@ const styles = {
   largeInputLabel: {
     ...inputLabelBase,
     fontSize: '1rem',
+    color: 'white !important',
   },
   inputLabel: {
     ...inputLabelBase,
     fontSize: '.75rem',
+    color: 'white !important',
   },
   inputMultiline: {
     lineHeight: 'initial !important',
+    color: 'white !important',
   },
 }
 

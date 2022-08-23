@@ -213,7 +213,7 @@ export default class ExtensionPlatform {
     extension.notifications.create(url, {
       type: 'basic',
       title,
-      iconUrl: extension.extension.getURL('../../images/icon-64.png'),
+      iconUrl: extension.extension.getURL('../../images/auwallet-logo.png'),
       message,
     })
   }

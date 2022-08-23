@@ -32,10 +32,11 @@
     width: 100%;
     max-width: 720px;
     padding-top: 10px;
+    background-color: #1c1c1c;
   }
 
   &__stack {
     overflow-x: auto;
-    background-color: #eee;
+    background-color: #1c1c1c;
   }
 }
